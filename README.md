@@ -35,6 +35,12 @@ The labels are converted into numerical values:
 - `ham` → `0` (Not Spam)
 - `spam` → `1` (Spam)
 
+The dataset used in this project is available on Kaggle:
+
+[Spam Email Classification Dataset](https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification)
+
+The dataset is used for training and evaluating the spam classification model.
+
 ## ⚙️ Project Workflow
 
 ### 1. Data Preprocessing
@@ -81,8 +87,7 @@ The confusion matrix is visualized using Seaborn to help analyze the classificat
    pip install pandas numpy matplotlib seaborn scikit-learn
    ```
 3. Open `Email Spam Detection.ipynb` in Jupyter Notebook.
-4. Make sure `email.csv` is available in the correct directory.
-5. Run all cells in order to train the model, evaluate its performance, and launch the Spam Detection GUI.
+4. Run all cells in order to train the model, evaluate its performance, and launch the Spam Detection GUI.
 
 The application will train the model, display the evaluation results, and open the Spam Detection GUI.
 
